@@ -1639,6 +1639,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 7px;
     /* background-color: red; */
   }
+  #about h2 {
+    text-align: center;
+  }
+  #about p {
+    text-align: center;
+  }
   #intro .intro-about {
     margin-top: 40px;
 
