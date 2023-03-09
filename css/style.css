@@ -603,7 +603,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 26px;
 }
 
+.intro-about-info{
+width: 100%;
+display: flex;
+align-items: center;
+}
 
+.intro-about-text {
+  width: 100%;
+  text-align: start; 
+  /* background-color: red;  */
+  width: 50%;
+}
+
+.intro-about-img {
+  text-align: start;  
+  /* background-color: green;  */
+  width: 50%;
+}
+
+.intro-about-img img {
+  width: 190px; height: 190px;
+}
 #intro .play-btn {
   width: 94px;
   height: 94px;
@@ -1691,7 +1712,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     /* background-color: red; */
     
   }
-
+  .intro-about-info {
+    flex-direction: column;
+  }
+  .intro-about-text {
+    text-align: center;
+  }
+  .intro-about-img {
+    display: none;
+  }
   #nav-menu-container {
     display: none;
   }
