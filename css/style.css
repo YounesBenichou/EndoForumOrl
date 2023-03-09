@@ -1717,6 +1717,7 @@ align-items: center;
   }
   .intro-about-text {
     text-align: center;
+    width: 100%;
   }
   .intro-about-img {
     display: none;
