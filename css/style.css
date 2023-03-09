@@ -107,6 +107,7 @@ h6 {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
+  
 }
 
 .section-header::before {
@@ -137,6 +138,17 @@ h6 {
   color: #9195a2;
 }
 
+.section-header div {
+  width: 100%;
+  /* background-color: red; */
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
 .section-with-bg {
   background-color: #f6f7fd;
 }
@@ -777,6 +789,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: justify;
 
 }
+
+#mot_de_president img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  /* max-height: 300px; */
+  overflow: none;
+  /* width: 100%; */
+}
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
@@ -797,6 +818,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: none;
   width: 100%;
 }
+
+
 
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
