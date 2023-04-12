@@ -110,6 +110,16 @@ h6 {
   
 }
 
+.section-under-header {
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
 .section-header::before {
   content: '';
   position: absolute;
@@ -975,10 +985,14 @@ align-items: center;
 }
 
 #schedule .schedule-item {
-  border-bottom: 1px solid #cad4f6;
+  border: 5px solid #aabcfa;
+  border-radius: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #schedule .schedule-item:hover {
@@ -1011,6 +1025,7 @@ align-items: center;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
+  /* text-decoration: underline; */
 }
 
 #schedule .schedule-item h4 span {
@@ -1018,12 +1033,40 @@ align-items: center;
   color: #19328e;
   font-weight: normal;
   font-size: 16px;
+  text-decoration: none;
+}
+
+#schedule .schedule-item p span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 #schedule .schedule-item p {
-  font-style: italic;
+  /* font-style: italic; */
   color: #152b79;
   margin-bottom: 0;
+  padding-top: 10px;
+  font-size: 17px;
+  text-align: justify;
+
+}
+
+.schedule-separator {
+  /* font-style: italic; */
+  border-top: 5px solid #152b79;
+  border-bottom: 5px solid #152b79;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
