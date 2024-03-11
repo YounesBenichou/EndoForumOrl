@@ -114,6 +114,13 @@ h6 {
   
 }
 
+.section-sub-header {
+  /* margin-bottom: 60px; */
+  position: relative;
+  /* padding-bottom: 20px; */
+  
+}
+
 .section-under-header {
   margin-bottom: 10px;
   position: relative;
@@ -153,6 +160,18 @@ h6 {
   font-weight: 700;
   margin-bottom: 10px;
   color: #112D63;
+}
+
+.section-sub-header h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 17px;
+  /* text-decoration: underline; */
+
 }
 
 .section-with-bg h2 {
@@ -968,7 +987,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #112D63;
   text-align: justify;
   font-family: "montserrat", "Raleway", sans-serif;
+
 }
+
+/*--------------------------------------------------------------
+# Appel au communication Section
+--------------------------------------------------------------*/
+#appel_au_communication {
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#appel_au_communication  .content {
+  width: 100%;
+}
+#appel_au_communication  .content p {
+  color: white;
+  text-align: justify;
+}
+
+#appel_au_communication  .content ul li {
+  color: white;
+  text-align: justify;
+  position: relative;
+  right: 12px;
+}
+#appel_au_communication .date_limite {
+  display: flex;
+  width: 100%;
+  /* justify-content: center; */
+}
+#appel_au_communication .date_limite p{
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  color: #112D63;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px 8px 5px 8px;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 5px;
+  width: fit-content;
+  position: relative;
+  left: 10px;
+}
+
 /*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
