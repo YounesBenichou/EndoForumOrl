@@ -950,19 +950,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 30px 30px 30px;
 }
 
-#mot_de_president p {
-  font-size: 18px;
-  text-align: justify;
-
-}
-
 #mot_de_president img{
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border-radius: 10%;
   /* max-height: 300px; */
   overflow: none;
   /* width: 100%; */
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+#mot_de_president p{
+  font-size: 17px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  color: #112D63;
+  text-align: justify;
+  font-family: "montserrat", "Raleway", sans-serif;
 }
 /*--------------------------------------------------------------
 # Speakers Section
