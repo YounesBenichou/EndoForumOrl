@@ -1105,9 +1105,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #speakers .speaker .details p {
   color: #fff;
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 10px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #speakers .speaker .details .social {
