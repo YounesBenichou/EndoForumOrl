@@ -1205,9 +1205,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #schedule .sub-heading {
   text-align: center;
-  font-size: 18px;
-  font-style: italic;
-  margin: 0 auto 30px auto;
+  font-size: 30px;
+  /* font-style: italic; */
+  margin: 15px auto 20px auto;
+  font:900;
+  background-color: #0e1b4d;
+  color: white;
+  width: 50%;
 }
 
 #schedule .tab-pane {
@@ -1232,6 +1236,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  font-size: 15px;
+  min-width: fit-content;
+  text-wrap:nowrap;
 }
 
 #schedule .schedule-item .speaker {
